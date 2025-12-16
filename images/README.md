@@ -7,5 +7,3 @@ Recommended screenshots:
 - Object properties
 - Data properties
 - OntoGraf/visualization view
-- Reasoner results (consistency check)
-
