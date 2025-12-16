@@ -6,10 +6,8 @@ This repository contains an OWL ontology built in Protégé to model an ESP32-ba
 - Protégé ontology file (.owl)
 - Screenshots of classes, properties, and visualization
 - Project report/documentation
-- Dataset used for examples/testing
 
 ## Folder structure
-- `/dataset` → dataset files used in the project
 - `/images` → screenshots (Protégé, visualizations, reasoner, etc.)
 - `/ontology` → OWL file + ontology notes
 - `/report` → report and write-ups
