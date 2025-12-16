@@ -6,7 +6,7 @@ Recommended screenshots:
 - Class hierarchy
 - Object properties
 - Data properties
-- Individuals (if used)
+- Individuals 
 - OntoGraf/visualization view
 - Reasoner results (consistency check)
 
