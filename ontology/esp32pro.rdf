@@ -1,0 +1,1057 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15/"
+     xml:base="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#alertRelatedToPlant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#alertRelatedToPlant">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#coversTimePeriod -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#coversTimePeriod">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#deployedAtLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#deployedAtLocation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#generatedAlertFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#generatedAlertFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasComponent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasComponent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasDashboard -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasDashboard">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasMicrocontroller -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasMicrocontroller">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasNetworkConfiguration -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasNetworkConfiguration">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasSensor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasSensor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasThreshold -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasThreshold">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#measuresEnvironment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#measuresEnvironment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#monitorsPlant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#monitorsPlant">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#observesPlant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#observesPlant">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#producesMeasurement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#producesMeasurement">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#sendsMeasurement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#sendsMeasurement">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#sentToCloudService -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#sentToCloudService">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#triggeredByMeasurement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#triggeredByMeasurement">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#usesCloudService -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#usesCloudService">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#usesHTTPConfiguration -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#usesHTTPConfiguration">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#usesMQTTConfiguration -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#usesMQTTConfiguration">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#usesTLSConfiguration -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#usesTLSConfiguration">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#usesWiFiConfiguration -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#usesWiFiConfiguration">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#visualizesMeasurement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#visualizesMeasurement">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasAlertMessage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasAlertMessage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasAlertSeverityLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasAlertSeverityLevel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasBatteryVoltage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasBatteryVoltage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasBrokerHostName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasBrokerHostName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasDashboardTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasDashboardTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasDeviceID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasDeviceID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasHttpEndpointUrl -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasHttpEndpointUrl">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasHumidityValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasHumidityValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasIPAddress -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasIPAddress">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasLocationName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasLocationName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasLowerThresholdValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasLowerThresholdValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasNotes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasNotes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasPlantName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasPlantName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasReadingStatusText -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasReadingStatusText">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasReadingTimestamp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasReadingTimestamp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasSSID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasSSID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasSoilMoisturePercent -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasSoilMoisturePercent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasTemperatureValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasTemperatureValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasUpperThresholdValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasUpperThresholdValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasWiFiPassword -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#hasWiFiPassword">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Alert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Alert"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#AzureDataExplorer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#AzureDataExplorer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#AzureService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#AzureIoTCentral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#AzureIoTCentral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#AzureService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#AzureIoTHub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#AzureIoTHub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#AzureService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#AzureService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#AzureService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#CloudService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#BatteryPack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#BatteryPack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#BatteryVoltageReading -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#BatteryVoltageReading">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#CloudService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#CloudService"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#CombinedEnvSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#CombinedEnvSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#CompositeReading -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#CompositeReading">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#DailyPeriod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#DailyPeriod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TimePeriod"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#WeeklyPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Dashboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Dashboard"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Device"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#DormRoomLocation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#DormRoomLocation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#ESP32Board -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#ESP32Board">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Microcontroller"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Environment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#GoogleAppsScriptService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#GoogleAppsScriptService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#GoogleCloudService"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#GoogleSheetsService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#GoogleCloudService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#GoogleCloudService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#CloudService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#GoogleSheetsService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#GoogleSheetsService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#GoogleCloudService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#GreenhouseEnvironment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#GreenhouseEnvironment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#HTTPConfiguration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#HTTPConfiguration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#NetworkConfiguration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#HumidityOutOfRangeAlert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#HumidityOutOfRangeAlert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Alert"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#HumidityReading -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#HumidityReading">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#HumiditySensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#HumiditySensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#HumidityThreshold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#HumidityThreshold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Threshold"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#IndoorPlant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#IndoorPlant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Plant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#InstructorUser -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#InstructorUser">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#User"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#StudentUser"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#InvalidReading -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#InvalidReading">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#ReadingQuality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#ValidReading"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#IoTSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#IoTSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#System"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PlantMonitoringSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#LabBenchLocation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#LabBenchLocation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#MQTTConfiguration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#MQTTConfiguration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#NetworkConfiguration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Measurement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Measurement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Microclimate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Microclimate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Microcontroller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Microcontroller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#NetworkConfiguration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#NetworkConfiguration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#OutdoorEnvironment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#OutdoorEnvironment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#OutdoorPlant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#OutdoorPlant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Plant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Plant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Plant"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PlantMonitoringSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PlantMonitoringSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PlantPotLocation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PlantPotLocation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PottedPlant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PottedPlant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Plant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PowerBIDashboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PowerBIDashboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Dashboard"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SheetsChartView"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PowerBIService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PowerBIService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#CloudService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PowerModule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PowerModule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#ReadingQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#ReadingQuality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#RoomEnvironment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#RoomEnvironment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SheetsChartView -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SheetsChartView">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Dashboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SoilDryAlert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SoilDryAlert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Alert"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SoilMoistureReading -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SoilMoistureReading">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SoilMoistureSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SoilMoistureSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SoilMoistureThreshold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SoilMoistureThreshold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Threshold"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#StudentUser -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#StudentUser">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SucculentPlant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SucculentPlant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Plant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#System"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TLSConfiguration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TLSConfiguration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#NetworkConfiguration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TemperatureOutOfRangeAlert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TemperatureOutOfRangeAlert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Alert"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TemperatureReading -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TemperatureReading">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TemperatureSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TemperatureSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TemperatureThreshold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TemperatureThreshold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Threshold"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TestPlant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TestPlant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Plant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Threshold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Threshold"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TimePeriod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TimePeriod"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#USBPower -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#USBPower">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PowerModule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#User"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#ValidReading -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#ValidReading">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#ReadingQuality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#WeeklyPeriod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#WeeklyPeriod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TimePeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#WiFiConfiguration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#WiFiConfiguration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#NetworkConfiguration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#WindowSillLocation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#WindowSillLocation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Alert"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#CloudService"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Dashboard"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Device"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Environment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Location"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Measurement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#NetworkConfiguration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Plant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#ReadingQuality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Threshold"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TimePeriod"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#User"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#AzureDataExplorer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#AzureIoTCentral"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#AzureIoTHub"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#AzureService"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#GoogleCloudService"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PowerBIService"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#BatteryPack"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Microcontroller"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PowerModule"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Sensor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#BatteryVoltageReading"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#CompositeReading"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#HumidityReading"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SoilMoistureReading"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TemperatureReading"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#CombinedEnvSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#HumiditySensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SoilMoistureSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TemperatureSensor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#DormRoomLocation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#LabBenchLocation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PlantPotLocation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#WindowSillLocation"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#GreenhouseEnvironment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#Microclimate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#OutdoorEnvironment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#RoomEnvironment"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#HTTPConfiguration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#MQTTConfiguration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TLSConfiguration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#WiFiConfiguration"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#HumidityOutOfRangeAlert"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SoilDryAlert"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TemperatureOutOfRangeAlert"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#HumidityThreshold"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SoilMoistureThreshold"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TemperatureThreshold"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#IndoorPlant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#OutdoorPlant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#PottedPlant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#SucculentPlant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ianwa/ontologies/2025/11/untitled-ontology-15#TestPlant"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
